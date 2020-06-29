@@ -1,22 +1,102 @@
-Minions are a feature in Old School Bot that let you simulate playing a virtual RuneScape account in Discord. You control a minion, who you send out to do various tasks, like killing monsters for loot, completing clue scrolls, and training skills. With the loot they get, you can craft items, sell them, and trade to other real players.
+| :warning: | *Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow any bot users to break any of the official OSRS rules. Read the rules here: [Old School Bot Rules](https://www.oldschool.gg/oldschoolbot/rules)* | :warning: |
+| --- | --- | --- |
 
-You can also read the [FAQ](https://www.oldschool.gg/oldschoolbot/faq) for answers to common questions.
+Minions are a feature in Old School Bot that let you simulate playing a virtual RuneScape account in Discord. 
+You control a minion, who you send out to do various tasks, like killing monsters for loot, completing clue scrolls, and training skills. 
+With the loot they get, you can craft items, sell them, and trade to other real players.
 
-> Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow any bot users to break any of the official OSRS rules. Read the rules here: [Old School Bot Rules](https://www.oldschool.gg/oldschoolbot/rules)
-
-
-If you notice any mistakes or missing information in this page, you can [add it yourself](https://github.com/gc/obdocs/blob/master/minions.md), or report it to us in the [support server](https://discord.gg/ob)
-
-[Edit this page on Github](https://github.com/gc/obdocs/blob/master/minions.md)
-
+If you notice any mistakes or missing information in this page, you can [edit the page yourself](https://github.com/gc/obdocs/blob/master/minions.md), or report it to us via the [discord support server](https://discord.gg/ob)
 
 # Getting started
 
-To get started, firstly [read the rules](https://www.oldschool.gg/oldschoolbot/rules), then get yourself a minion by typing `+minion buy`, or `+m buy` for short. If your Discord account is 6 months old or older, your minion will be free. If it is between 1 and 6 months old, your minion will cost 20m. If your account is less than one month old, you are currently unable to purchase a minion as a precaution against alt accounts and bots (unless you become a patron which bypasses this restriction). To get your starting gp, you can use the `+daily` command every 12 hours to get a trivia question you can answer for gp and special Diango items.
+Firstly, [read the rules](https://www.oldschool.gg/oldschoolbot/rules) and join the [Discord support server](https://discord.gg/ob).
 
-Next, decide what you want to do. Skilling? PVM? Questing? Read the rest of the page to see what you can do, and how - and just do whatever you want to do!
+We highly recommend joining the support server for multiple reasons:
+- Bot updates are announced in the `#news` channel
+- Help/Support available in the `#help-and-support` channel
+- Buy/Sell items from other plays in the `#grand-exchange` channel
+- Bot wide rare drops, pets etc announced in `#notifications` channel
 
-It's highly recommended to join the [support server](https://discord.gg/ob) for several reasons: All updates and changes to the bot are announced in the #news channel in the server. We have a #grand-exchange channel you can use to trade/sell items with others. We have a #notifications channel that shows all the rare drops, pets, and other things that people are getting in real time! 
+## Activating your minion
+The requirements to activate your minion vary depending upon the age of your Discord account, this is to guard against botting and alt accounts.
+
+|Discord account age|Minion creation requirements|
+|       :---:       |:---:|
+|   Under 1 Month   | Unable to create a minion.|
+|    1 - 6 Months   | Requires 20m gp to create your minion.|
+|     6+ Months     | No requirements|
+
+You can use the `+daily` command every 12 hours to earn the required gp, this will ask you trivia questions and provide gp and special Diango items as a reward.
+Becoming a [patron](https://www.patreon.com/oldschoolbot) allows you to bypass the above restrictions.
+
+You can activate your minion by using the `+minion buy` command, or `+m buy` for short. 
+
+## Your bank
+Your minion has a bank just like in the real game, loot from killing monsters and bosses will automatically be added to your bank along with raw crafting materials you gather and any items you make from them.
+
+To view your bank use `+bank` or `+b` for short.
+
+Once your bank grows large enough it will not all fit on the single bank page returned by the above command. This will be shown by the message at the top showing `Page 1 of x` when you run the command. 
+
+To see the next page simply add the page number onto the main bank command, for example `+bank 2`.
+
+To see your entire bank in one image you can use the `+bank --full` command.
+
+You can also view a text version of your bank using `+bank --text`. This will generate an output and then add emote reactions below it, these can be used to navigate between pages on the text bank. You will need to add a reaction for it to be registered, and then remove it and add again to register the second of that interaction. The emote reactions are monitored by the bot for **CLARIFY THIS**
+
+### Searching
+There are multiple ways to search your bank.
+
+`+bank air rune` will search your bank specifically for `air rune` and return the quantity if found. The text must be an exact match including punctuation for this method to find the item.
+
+`+bank --search=rune` will search your bank for `rune` using wildcards either side of it. So this example would match all magic runes as well as runite items.
+
+### Filtering
+You can filter the output of the `+bank` command to show items relating to certain monsters/skills. To do this you add `--[filter]` to the end of any `+bank` command, including searches.
+
+Monster filters:
+- `--barrows`
+- `--cerb`
+- `--corp`
+- `--dks`
+- `--gwd`
+- `--kq`
+- `--vorkath`
+
+Skill filters:
+- `--agility`
+- `--farming`
+- `--fletching`
+- `--herblore`
+- `--prayer`
+- `--skilling`
+
+Item filters:
+- `--food`
+- `--herbs`
+- `--potions`
+
+Minigame Filters:
+- `--wt`
+
+
+
+
+
+
+.////////////////
+
+.
+
+. BELOW IS UNEDITED
+
+.
+
+./////////////////
+
+
+
+
 
 
 # Activities  
@@ -513,3 +593,6 @@ You can sacrifice items using `+sacrifice [quantity] <item>`, like `+sacrifice B
 The Patreon is a way for users to donate to me (Magnaboy), if you wish. It's entirely your choice, if you want to. I will never sell items/GP from the bot for money, nor P2W perks/advantages. 
 
 You can donate to me on Patreon here: [https://www.patreon.com/oldschoolbot](https://www.patreon.com/oldschoolbot)
+
+
+You can also read the [FAQ](https://www.oldschool.gg/oldschoolbot/faq) for answers to common questions.
