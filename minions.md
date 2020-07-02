@@ -1,5 +1,12 @@
-| :warning: | *Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow any bot users to break any of the official OSRS rules. Read the rules here: [Old School Bot Rules](https://www.oldschool.gg/oldschoolbot/rules)* | :warning: |
-| --- | --- | --- |
+<table>
+  <tbody>
+    <tr>
+      <td>:warning:</td>
+      <td><b><i>Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow  any bot users to break any of the official OSRS rules. Read the rules here: [Old School Bot Rules](https://www.oldschool.gg/oldschoolbot/rules)</i></b></td>
+      <td>:warning:</td>
+    </tr>
+  </tbody>
+</table>
 
 Minions are a feature in Old School Bot that let you simulate playing a virtual RuneScape account in Discord. 
 You control a minion, who you send out to do various tasks, like killing monsters for loot, completing clue scrolls, and training skills. 
@@ -54,31 +61,51 @@ There are multiple ways to search your bank.
 ### Filtering
 You can filter the output of the `+bank` command to show items relating to certain monsters/skills. To do this you add `--[filter]` to the end of any `+bank` command, including searches.
 
-Monster filters:
-- `--barrows`
-- `--cerb`
-- `--corp`
-- `--dks`
-- `--gwd`
-- `--kq`
-- `--vorkath`
-
-Skill filters:
-- `--agility`
-- `--farming`
-- `--fletching`
-- `--herblore`
-- `--prayer`
-- `--skilling`
-
-Item filters:
-- `--food`
-- `--herbs`
-- `--potions`
-
-Minigame Filters:
-- `--wt`
-
+<table>
+  <tbody>
+    <tr>
+      <th align="center">Monster</th>
+      <th align="center">Skills</th>
+      <th align="center">Items</th>
+	     <th align="center">Minigames</th>
+    </tr>
+    <tr>
+      <td>
+        <ul>
+          <li><code>--barrows</code></li>
+          <li><code>--cerb</code></li>
+		        <li><code>--corp</code></li>
+		        <li><code>--dks</code></li>
+		        <li><code>--gwd</code></li>
+		        <li><code>--kq</code></li>
+		        <li><code>--vorkath</code></li>
+        </ul>
+      </td>
+	     <td>
+        <ul>
+          <li><code>--agility</code></li>
+          <li><code>--farming</code></li>
+		        <li><code>--fletching</code></li>
+		        <li><code>--herblore</code></li>
+		        <li><code>--prayer</code></li>
+		        <li><code>--skilling</code></li>
+        </ul>
+      </td>
+	  <td>
+        <ul>
+          <li><code>--food</code></li>
+          <li><code>--herbs</code></li>
+		        <li><code>--potions</code></li>
+        </ul>
+      </td>
+	  <td>
+        <ul>
+          <li><code>--wt</code></li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
