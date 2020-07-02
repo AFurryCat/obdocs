@@ -1,11 +1,11 @@
 <table>
-  <tbody>
-    <tr>
-      <td>:warning:</td>
-      <td><b><i>Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow any bot users to break any of the official OSRS rules. </br>Read the rules here: <a href="https://www.oldschool.gg/oldschoolbot/rules">Old School Bot Rules</a></i></b></td>
-      <td>:warning:</td>
-    </tr>
-  </tbody>
+	<tbody>
+		<tr>
+			<td>:warning:</td>
+			<td align="center"><b><i>Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow any bot users to break any of the official OSRS rules. </br>Read the rules here: <a href="https://www.oldschool.gg/oldschoolbot/rules">Old School Bot Rules</a></i></b></td>
+			<td>:warning:</td>
+		</tr>
+	</tbody>
 </table>
 
 Minions are a feature in Old School Bot that let you simulate playing a virtual RuneScape account in Discord. 
@@ -31,7 +31,28 @@ The requirements to activate your minion vary depending upon the age of your Dis
 |       :---:       |:---:|
 |   Under 1 Month   | Unable to create a minion.|
 |    1 - 6 Months   | Requires 20m gp to create your minion.|
-|     6+ Months     | No requirements|
+|     6+ Months     | No requirements|#
+
+<table>
+	<tbody>
+		<tr>
+			<th align="center">Discord account age</th>
+			<th align="center">Minion creation requirements</th>
+		</tr>
+		<tr>
+			<td align="center">Under 1 Month</td>
+			<td align="center">Unable to create a minion.</td>
+		</tr>
+		<tr>
+			<td align="center">1 - 6 Months</td>
+			<td align="center">Requires 20m gp to create your minion.</td>
+		</tr>
+		<tr>
+			<td align="center">6+ Months</td>
+			<td align="center">No requirements.</td>
+		</tr>
+	</tbody>
+</table>
 
 You can use the `+daily` command every 12 hours to earn the required gp, this will ask you trivia questions and provide gp and special Diango items as a reward.
 Becoming a [patron](https://www.patreon.com/oldschoolbot) allows you to bypass the above restrictions.
@@ -62,49 +83,49 @@ There are multiple ways to search your bank.
 You can filter the output of the `+bank` command to show items relating to certain monsters/skills. To do this you add `--[filter]` to the end of any `+bank` command, including searches.
 
 <table>
-  <tbody>
-    <tr>
-      <th align="center">Monster</th>
-      <th align="center">Skills</th>
-      <th align="center">Items</th>
-	     <th align="center">Minigames</th>
-    </tr>
-    <tr>
-      <td>
-        <ul>
-          <li><code>--barrows</code></li>
-          <li><code>--cerb</code></li>
-		        <li><code>--corp</code></li>
-		        <li><code>--dks</code></li>
-		        <li><code>--gwd</code></li>
-		        <li><code>--kq</code></li>
-		        <li><code>--vorkath</code></li>
-        </ul>
-      </td>
-	     <td>
-        <ul>
-          <li><code>--agility</code></li>
-          <li><code>--farming</code></li>
-		        <li><code>--fletching</code></li>
-		        <li><code>--herblore</code></li>
-		        <li><code>--prayer</code></li>
-		        <li><code>--skilling</code></li>
-        </ul>
-      </td>
-	  <td>
-        <ul>
-          <li><code>--food</code></li>
-          <li><code>--herbs</code></li>
-		        <li><code>--potions</code></li>
-        </ul>
-      </td>
-	  <td>
-        <ul>
-          <li><code>--wt</code></li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
+	<tbody>
+		<tr>
+			<th align="center">Monster</th>
+			<th align="center">Skills</th>
+			<th align="center">Items</th>
+			<th align="center">Minigames</th>
+		</tr>
+		<tr>
+			<td>
+				<ul>
+					<code>--barrows</code></br>
+					<code>--cerb</code></br>
+					<code>--corp</code></br>
+					<code>--dks</code></br>
+					<code>--gwd</code></br>
+					<code>--kq</code></br>
+					<code>--vorkath</code>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<code>--agility</code></br>
+					<code>--farming</code></br>
+					<code>--fletching</code></br>
+					<code>--herblore</code></br>
+					<code>--prayer</code></br>
+					<code>--skilling</code>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<code>--food</code></br>
+					<code>--herbs</code></br>
+					<code>--potions</code>
+				</ul>
+			</td>
+			<td>
+				<ul>
+					<code>--wt</code>
+				</ul>
+			</td>
+		</tr>
+	</tbody>
 </table>
 
 
