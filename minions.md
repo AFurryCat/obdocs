@@ -2,7 +2,7 @@
   <tbody>
     <tr>
       <td>:warning:</td>
-      <td><b><i>Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow  any bot users to break any of the official OSRS rules. Read the rules here: [Old School Bot Rules](https://www.oldschool.gg/oldschoolbot/rules)</i></b></td>
+      <td><b><i>Minions are entirely virtual, and not in any way tradeable for real GP or real money. It's simulating the real game for fun. We strictly do not allow any bot users to break any of the official OSRS rules. </br>Read the rules here: <a href="https://www.oldschool.gg/oldschoolbot/rules">Old School Bot Rules</a></i></b></td>
       <td>:warning:</td>
     </tr>
   </tbody>
