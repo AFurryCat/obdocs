@@ -15,49 +15,8 @@ With the loot they get, you can craft items, sell them, and trade to other real 
 If you notice any mistakes or missing information in this page, you can [edit the page yourself](https://github.com/gc/obdocs/blob/master/minions.md), or report it to us via the [discord support server](https://discord.gg/ob)
 
 
-- [Getting started](#getting-started)
-  * [Activating your minion](#activating-your-minion)
-  * [Banking](#banking)
-    + [Searching](#searching)
-    + [Filtering](#filtering)
-- [Activities](#activities)
-    + [Skills](#skills)
-    + [Miscellaneous](#miscellaneous)
-    + [Bossing](#bossing)
-      - [Group Bossing](#group-bossing)
-        * [Invite-only group bossing](#invite-only-group-bossing)
-        * [Mass bossing](#mass-bossing)
-      - [Fight Caves](#fight-caves)
-      - [Equipping Gear](#equipping-gear)
-  * [Agility](#agility)
-    + [Courses](#courses)
-  * [Fishing](#fishing)
-    + [Fish](#fish)
-  * [Mining](#mining)
-    + [Ores](#ores)
-  * [Smithing](#smithing)
-    + [Bars](#bars)
-  * [Woodcutting](#woodcutting)
-    + [Logs](#logs)
-  * [Firemaking](#firemaking)
-    + [Logs](#logs-1)
-  * [Runecrafting](#runecrafting)
-    + [Runes](#runes)
-  * [Cooking](#cooking)
-    + [Food](#food)
-  * [Crafting](#crafting)
-  * [Prayer](#prayer)
-  * [Fletching](#fletching)
-  * [Questing](#questing)
-  * [Skillcapes](#skillcapes)
-- [Boss and Monster Requirements](#boss-and-monster-requirements)
-- [Buyable Items](#buyable-items)
-- [Creatable Items](#creatable-items)
-- [Bank Backgrounds](#bank-backgrounds)
-- [Minion Icons](#minion-icons)
-- [Patreon](#patreon)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+# TODO: GENERATE CONTENTS PAGE
+<i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generator/a></i>
 
 
 # Getting started
@@ -195,8 +154,6 @@ You can train Agility using the `+laps` command.
 
 `+laps 10 <course command>` will do 10 laps of the given course, and the trip will only take as long as needed to do those 10 laps.  
 
-
-
 ### Courses
 <table>
 	<tbody>
@@ -318,16 +275,31 @@ You can train Agility using the `+laps` command.
 </table>
 
 ## Marks of Grace
-Completing a lap of an agility course gives the possibility of being rewarded with a Mark of Grace. Marks of Grace can be used to 
-Agility rewards you with marks of grace which you can use to buy Graceful equipment set.using the command `+create graceful` or `+create graceful (piece)`.
+Completing a lap of an agility course gives the possibility of being rewarded with a Mark of Grace. Marks of Grace can be used to create the Graceful Set. 
 
-TODO: Look at what benefits agility provides in the code
+TODO: Link graceful set to graceful set in item creation
 
-### Notes
-Failure Percentage Calculation: `(100 * Minion Agility Level) / (Course Agility Requirement + 5)`
+## Benefits
+Training your minions agility provides the following benefits
 
-Xp Received Calculation: `(Total Laps - (Laps Failed / 2)) * Course Completion Exp`
-
+<table>
+	<tbody>
+		<tr>
+			<th align="center">Skill</th>
+			<th align="center">Agility Level</th>
+			<th align="center">Benefit</th>
+		</tr>
+		<tr>
+			<td align="center" rowspan="2">Runecrafting</td>
+			<td align="center">60+</td>
+			<td align="center">5% Boost</td>
+		</tr>
+		<tr>
+			<td align="center">90+</td>
+			<td align="center">10% Boost</td>
+		</tr>
+	</tbody>
+</table>
 
 ## Fishing
 You can train Fishing using `+fish [quantity] <fish>`, for example `+fish 100 lobster`.  
