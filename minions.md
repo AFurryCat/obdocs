@@ -14,6 +14,52 @@ With the loot they get, you can craft items, sell them, and trade to other real 
 
 If you notice any mistakes or missing information in this page, you can [edit the page yourself](https://github.com/gc/obdocs/blob/master/minions.md), or report it to us via the [discord support server](https://discord.gg/ob)
 
+
+- [Getting started](#getting-started)
+  * [Activating your minion](#activating-your-minion)
+  * [Banking](#banking)
+    + [Searching](#searching)
+    + [Filtering](#filtering)
+- [Activities](#activities)
+    + [Skills](#skills)
+    + [Miscellaneous](#miscellaneous)
+    + [Bossing](#bossing)
+      - [Group Bossing](#group-bossing)
+        * [Invite-only group bossing](#invite-only-group-bossing)
+        * [Mass bossing](#mass-bossing)
+      - [Fight Caves](#fight-caves)
+      - [Equipping Gear](#equipping-gear)
+  * [Agility](#agility)
+    + [Courses](#courses)
+  * [Fishing](#fishing)
+    + [Fish](#fish)
+  * [Mining](#mining)
+    + [Ores](#ores)
+  * [Smithing](#smithing)
+    + [Bars](#bars)
+  * [Woodcutting](#woodcutting)
+    + [Logs](#logs)
+  * [Firemaking](#firemaking)
+    + [Logs](#logs-1)
+  * [Runecrafting](#runecrafting)
+    + [Runes](#runes)
+  * [Cooking](#cooking)
+    + [Food](#food)
+  * [Crafting](#crafting)
+  * [Prayer](#prayer)
+  * [Fletching](#fletching)
+  * [Questing](#questing)
+  * [Skillcapes](#skillcapes)
+- [Boss and Monster Requirements](#boss-and-monster-requirements)
+- [Buyable Items](#buyable-items)
+- [Creatable Items](#creatable-items)
+- [Bank Backgrounds](#bank-backgrounds)
+- [Minion Icons](#minion-icons)
+- [Patreon](#patreon)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 # Getting started
 
 Firstly, [read the rules](https://www.oldschool.gg/oldschoolbot/rules) and join the [Discord support server](https://discord.gg/ob).
@@ -26,12 +72,6 @@ We highly recommend joining the support server for multiple reasons:
 
 ## Activating your minion
 The requirements to activate your minion vary depending upon the age of your Discord account, this is to guard against botting and alt accounts.
-
-|Discord account age|Minion creation requirements|
-|       :---:       |:---:|
-|   Under 1 Month   | Unable to create a minion.|
-|    1 - 6 Months   | Requires 20m gp to create your minion.|
-|     6+ Months     | No requirements|#
 
 <table>
 	<tbody>
@@ -59,7 +99,7 @@ Becoming a [patron](https://www.patreon.com/oldschoolbot) allows you to bypass t
 
 You can activate your minion by using the `+minion buy` command, or `+m buy` for short. 
 
-## Your bank
+## Banking
 Your minion has a bank just like in the real game, loot from killing monsters and bosses will automatically be added to your bank along with raw crafting materials you gather and any items you make from them.
 
 To view your bank use `+bank` or `+b` for short.
@@ -70,7 +110,7 @@ To see the next page simply add the page number onto the main bank command, for 
 
 To see your entire bank in one image you can use the `+bank --full` command.
 
-You can also view a text version of your bank using `+bank --text`. This will generate an output and then add emote reactions below it, these can be used to navigate between pages on the text bank. You will need to add a reaction for it to be registered, and then remove it and add again to register the second of that interaction. The emote reactions are monitored by the bot for **CLARIFY THIS**
+You can also view a text version of your bank using `+bank --text`. This will generate an output and then add emote reactions below it, these can be used to navigate between pages on the text bank. You will need to add a reaction for it to be registered, and then remove it and add again to register the second of that interaction. The emote reactions are monitored by the bot for **TODO: Clarify working of bot monitoring emotes to navigate**
 
 ### Searching
 There are multiple ways to search your bank.
@@ -78,6 +118,8 @@ There are multiple ways to search your bank.
 `+bank air rune` will search your bank specifically for `air rune` and return the quantity if found. The text must be an exact match including punctuation for this method to find the item.
 
 `+bank --search=rune` will search your bank for `rune` using wildcards either side of it. So this example would match all magic runes as well as runite items.
+
+**TODO: Add other search command options**
 
 ### Filtering
 You can filter the output of the `+bank` command to show items relating to certain monsters/skills. To do this you add `--[filter]` to the end of any `+bank` command, including searches.
@@ -147,9 +189,7 @@ You can filter the output of the `+bank` command to show items relating to certa
 
 
 
-# Activities  
-
-### Skills
+# Skilling  
 
 Currently available skills are:  
   * [Agility](https://www.oldschool.gg/oldschoolbot/minions?Agility)  
@@ -163,92 +203,6 @@ Currently available skills are:
   * [Crafting](https://www.oldschool.gg/oldschoolbot/minions?Crafting)  
   * [Prayer](https://www.oldschool.gg/oldschoolbot/minions?Prayer)
   * [Fletching](https://www.oldschool.gg/oldschoolbot/minions?Fletching)
-  
-You can view your minions' stats using `+m stats`.  
- 
-### Miscellaneous
-  * [Questing](https://www.oldschool.gg/oldschoolbot/minions?Questing)  
-  * [Skillcapes](https://www.oldschool.gg/oldschoolbot/minions?Skillcapes)  
-  * [Boosts](https://www.oldschool.gg/oldschoolbot/minions?Boosts)  
-  * [Buyable Items](https://www.oldschool.gg/oldschoolbot/minions?Buyable%20Items)  
-  * [Creatable Items](https://www.oldschool.gg/oldschoolbot/minions?Creatable%20Items)
-  * [Boss/Monster Requirements](https://www.oldschool.gg/oldschoolbot/minions?Boss%20and%20Monster%20Requirements)  
-  * [Bank Backgrounds](https://www.oldschool.gg/oldschoolbot/minions?Bank%20Backgrounds)  
-  * [Minion Icons](https://www.oldschool.gg/oldschoolbot/minions?Minion%20Icons)
-  * [Patreon](https://www.oldschool.gg/oldschoolbot/minions?Patreon) 
-
-
-### Bossing
-
-Currently available bosses to kill are:  
-  
-![https://i.imgur.com/jLyLLND.png](https://i.imgur.com/jLyLLND.png)| Barrows
-:--------: | :-----:
-![https://i.imgur.com/sKTt3sl.png](https://i.imgur.com/sKTt3sl.png) | Callisto
-![https://i.imgur.com/GvC5Tco.png](https://i.imgur.com/GvC5Tco.png)| Cerberus
-![https://i.imgur.com/HdeDjCF.png](https://i.imgur.com/HdeDjCF.png)| Chaos Elemental
-![https://i.imgur.com/tN9bUAh.png](https://i.imgur.com/tN9bUAh.png)| Chaos Fanatic 
-![https://i.imgur.com/mLeZynK.png](https://i.imgur.com/mLeZynK.png)| Commander Zilyana
-![https://i.imgur.com/hZUNtgK.png](https://i.imgur.com/hZUNtgK.png)| Corporeal Beast
-![https://i.imgur.com/eqvQC4C.png](https://i.imgur.com/eqvQC4C.png)| Crazy Archaeologist
-![https://i.imgur.com/JfpXrXW.png](https://i.imgur.com/JfpXrXW.png)| Dagannoth Prime
-![https://i.imgur.com/pO822rj.png](https://i.imgur.com/pO822rj.png)| Dagannoth Rex
-![https://i.imgur.com/FKVIKMX.png](https://i.imgur.com/FKVIKMX.png)| Dagannoth Supreme
-![https://i.imgur.com/sLdtsrg.png](https://i.imgur.com/sLdtsrg.png)| General Graardor
-![https://i.imgur.com/igxsuRU.png](https://i.imgur.com/igxsuRU.png)| Giant Mole
-![https://i.imgur.com/gVIOuaQ.png](https://i.imgur.com/gVIOuaQ.png)| K'ril Tsutsaroth
-![https://i.imgur.com/rvqU0Z3.gif](https://i.imgur.com/rvqU0Z3.gif)| Kalphite Queen
-![https://i.imgur.com/pQFbspB.png](https://i.imgur.com/pQFbspB.png)| King Black Dragon
-![https://i.imgur.com/OfsrIfN.png](https://i.imgur.com/OfsrIfN.png)| Kree'arra 
-![https://i.imgur.com/Hv6IcBx.gif](https://i.imgur.com/Hv6IcBx.gif)| Lizardman Shaman
-![https://i.imgur.com/iwGwt1F.png](https://i.imgur.com/iwGwt1F.png)| Scorpia
-![https://i.imgur.com/HHEZj9X.png](https://i.imgur.com/HHEZj9X.png)| Venenatis
-![https://i.imgur.com/iSWr25X.gif](https://i.imgur.com/iSWr25X.gif)| Vet'ion
-![https://i.imgur.com/w9PrhyH.png](https://i.imgur.com/w9PrhyH.png)| Vorkath
-![https://i.imgur.com/p6d3Wna.gif](https://i.imgur.com/p6d3Wna.gif)| Zulrah
-
- Some bosses have requirements, like Quest points or gear, refer to [Boss and monster requirements](https://www.oldschool.gg/oldschoolbot/minions?Boss%20and%20monster%20requirements) for more information or use the `+monster` command in the bot. 
- 
- Don't know what you want to kill? Use the `+m k random` command to send your minion off to kill a random monster, limited to monsters you have the requirements to kill.
-  
- You can view your minions' killcounts using `+m kc`.
- 
-#### Group Bossing
-
-Some bosses are able to be killed in groups, these bosses currently are: All four GWD bosses, and Corp - more bosses are planned to be added. To do group bossing, you create a party, there are two kinds of parties: invite-only and mass. Invite only parties are for you to invite select people on your trip and mass parties can be joined by anyone. Parties have a leader, who is the person who created the party (ran the command).
-
-Note that, similar to ingame, even if you have a very big group of people in a party killing a boss, you're still limited by that bosses respawn time, although the kills can get very very fast if you have lots of people.
-
-Loot is rolled out completely randomly, for example if your party is doing 5 kills, it will give each kill loot to a random party member, the same person can be given loot multiple times, or none at all if unlucky.
-
-Currently, boosts do not apply to group boss trips, however this will be added in the future.
-
-You **cannot** join parties if: you're an ironman or if your minion is busy.
-
-##### Invite-only group bossing
-Example of invite-only group bossing party: `+groupkill party corp @Magnaboy @Alexsuperfly @Crow653` - this would make an invite-only party, that only those 3 people can join. Note that, the leader (the person who is running the command) doesn't have to add themselves to the list, they're always included automatically.
-
-After, each user will have to confirm they want to join by clicking on the "join" reaction. The trip will start when all users have confirmed, or if the party leader has clicked the "start" reaction to start early.
-
-
-##### Mass bossing
-Example of a mass bossing party: `+groupkill mass corp` - this would make a mass party, that ANYONE can join. The trip will start after 2 minutes automatically, or when the party leader clicks the "start" reaction.
-
-#### Fight Caves
-You can now challenge the Fight Caves and TzTok-Jad to recieve a fire cape, tokkul, and the TzRek-Jad pet using the `+fightcaves` command. Requirements: total +160 range bonus equipped to your range gear setup, 43 prayer, 10x Prayer Potion (4), 4x Super Restore (4), and 6x Saradomin Brew (4) per attempt, some of which may be returned to you should you fail before the final wave. You can make the 4 dose potions from 3, 2, and 1 dose drops using the `+decant` command. Better range gear will reduce the time each attempt takes, as will total Jad kc. Having a Saradomin Godsword equipped in your melee gear setup will reduce your chances of dying before Jad by 4%, and the number of total attempts you have made will determine your chances of killing Jad when he is reached. 
-
-If you have extra fire capes, you can gamble them for an additional roll at the TzRek-Jad pet using the `+capegamble` command. 
-
-#### Equipping Gear
-When sending your minion out on boss or skilling trips, you can equip it with gear to improve its speed and effeciency. For convenience, there is a gear setup for melee, range, mage, skilling, and misc. Depending on the activity your minion is doing will depend on which gear is used. For example, taking on the fightcaves uses your minion's **range** gear setup as well as the Saradomin Godsword if it is equipped in your **melee** gear setup. Whereas going mining will use your minion's **skilling** gear setup. You can equip any equippable items you want into the different setups.
-When an item is equipped, it is removed from your bank to the gear setup. When unequipped, the item moves back to your bank.
-
-To **equip** an item into a setup, use: `+equip [setup] [item]`. For example, to equip a Bandos chestplate to the melee setup, you would use the command: `+equip melee bandos chestplate`. To **unequip** an item from a setup, use: `+unequip [setup] [item]`. For example: `+unequip melee bandos chestplate`.
-
-To view your currently equipped gear, use: `+gear [setup]`. For example, to see your skilling setup, use: `+gear skilling`.
-
-Just like dropping a pet ingame and having it follow you, your minion can also equip a pet. This will keep your minion company while it's out working hard to earn you items and gp. To equip a pet, use: `+equippet [pet name]` and it will show on all your gear setups. To unequip it, use: `+unequippet`.
-
 
 ## Agility
 You can train Agility using `+laps [quantity] <course>`, for example `+laps 10 canifis`.  
@@ -256,20 +210,95 @@ You can train Agility using `+laps [quantity] <course>`, for example `+laps 10 c
 Agility rewards you with marks of grace which you can use to buy Graceful equipment using the command `+create graceful` or `+create graceful (piece)`.
 
 ### Courses
-| **Course** | **Required level** |
-| - | :-: |
-| Gnome stronghold | 1 |
-| Draynor village | 10 |
-| Al Kharid | 20 |
-| Varrock | 30 |
-| Canifis | 40 |
-| Falador | 50 |
-| Seers Village | 60 |
-| Pollnivneach | 70 |
-| Rellekka | 80 |
-| Ardougne | 90 |
 
-Click [here](https://i.imgur.com/LZGlSgj.png) for **Agility** XP rates and **Marks of Grace** per hour.
+**TODO: Add course commands to table**
+<table>
+	<tbody>
+		<tr>
+			<th align="center">Agility Level</th>
+			<th align="center">Course</th>
+			<th align="center">Lap Time</th>
+			<th align="center">Completion experience</th>
+			<th align="center">Mark of Grace chance</th>
+		</tr>
+		<tr>
+			<td align="center">1</td>
+			<td align="center">Gnome Stronghold</td>
+			<td align="center">34 seconds</td>
+			<td align="center">88</td>
+			<td align="center">0%</td>
+		</tr>
+		<tr>
+			<td align="center">10</td>
+			<td align="center">Draynor Village</td>
+			<td align="center">43 seconds</td>
+			<td align="center">120</td>
+			<td align="center">14.4%</td>
+		</tr>
+		<tr>
+			<td align="center">20</td>
+			<td align="center">Al Kharid</td>
+			<td align="center">65 seconds</td>
+			<td align="center">180</td>
+			<td align="center">14.4%</td>
+		</tr>
+		<tr>
+			<td align="center">30</td>
+			<td align="center">Varrock</td>
+			<td align="center">66 seconds</td>
+			<td align="center">238</td>
+			<td align="center">22%</td>
+		</tr>
+		<tr>
+			<td align="center">40</td>
+			<td align="center">Canafis</td>
+			<td align="center">75 seconds</td>
+			<td align="center">240</td>
+			<td align="center">39.5%</td>
+		</tr>
+		<tr>
+			<td align="center">50</td>
+			<td align="center">Falador</td>
+			<td align="center">58 seconds</td>
+			<td align="center">440</td>
+			<td align="center">21%</td>
+		</tr>
+		<tr>
+			<td align="center">60</td>
+			<td align="center">Seers Village</td>
+			<td align="center">44 seconds</td>
+			<td align="center">570</td>
+			<td align="center">14.8%</td>
+		</tr>
+		<tr>
+			<td align="center">70</td>
+			<td align="center">Pollnivneach</td>
+			<td align="center">61 seconds</td>
+			<td align="center">890</td>
+			<td align="center">15.3%</td>
+		</tr>
+		<tr>
+			<td align="center">80</td>
+			<td align="center">Rellekka</td>
+			<td align="center">51 seconds</td>
+			<td align="center">780</td>
+			<td align="center">19.8%</td>
+		</tr>
+		<tr>
+			<td align="center">90</td>
+			<td align="center">Ardougne</td>
+			<td align="center">45.6 seconds</td>
+			<td align="center">793</td>
+			<td align="center">30.4%</td>
+		</tr>
+	</tbody>
+</table>
+
+### Notes
+Failure Percentage Calculation: `100 - ((100 * Agility Level) / (Course Requirement + 5))` **TODO: Confirm this in code**
+
+Xp Received Calculation: `(Total Laps - (Laps Failed / 2)) * Course Completion Exp`
+
 
 ## Fishing
 You can train Fishing using `+fish [quantity] <fish>`, for example `+fish 100 lobster`.  
@@ -502,6 +531,94 @@ The Prayer skill is also required for creating Spirit shields.
 You can train fletching with the `+fletch` command. For example, `+fletch 10000 adamant dart`. To start off training fletching, you will want to `+chop` some logs for arrow shafts, and then `+fletch arrow shaft` them into arrow shafts. Alternativley, you can buy logs or unfinished fletching supplies from our #grand-exchange channel in the support server. 
 
 To see all the items you can fletch, check out the [Fletching Wiki Page](https://oldschool.runescape.wiki/w/Fletching) - most of the items found there are fletchable in the bot, having the exact same level and item requirements. 
+  
+You can view your minions' stats using `+m stats`.  
+ 
+### Miscellaneous
+  * [Questing](https://www.oldschool.gg/oldschoolbot/minions?Questing)  
+  * [Skillcapes](https://www.oldschool.gg/oldschoolbot/minions?Skillcapes)  
+  * [Boosts](https://www.oldschool.gg/oldschoolbot/minions?Boosts)  
+  * [Buyable Items](https://www.oldschool.gg/oldschoolbot/minions?Buyable%20Items)  
+  * [Creatable Items](https://www.oldschool.gg/oldschoolbot/minions?Creatable%20Items)
+  * [Boss/Monster Requirements](https://www.oldschool.gg/oldschoolbot/minions?Boss%20and%20Monster%20Requirements)  
+  * [Bank Backgrounds](https://www.oldschool.gg/oldschoolbot/minions?Bank%20Backgrounds)  
+  * [Minion Icons](https://www.oldschool.gg/oldschoolbot/minions?Minion%20Icons)
+  * [Patreon](https://www.oldschool.gg/oldschoolbot/minions?Patreon) 
+
+
+### Bossing
+
+Currently available bosses to kill are:  
+  
+![https://i.imgur.com/jLyLLND.png](https://i.imgur.com/jLyLLND.png)| Barrows
+:--------: | :-----:
+![https://i.imgur.com/sKTt3sl.png](https://i.imgur.com/sKTt3sl.png) | Callisto
+![https://i.imgur.com/GvC5Tco.png](https://i.imgur.com/GvC5Tco.png)| Cerberus
+![https://i.imgur.com/HdeDjCF.png](https://i.imgur.com/HdeDjCF.png)| Chaos Elemental
+![https://i.imgur.com/tN9bUAh.png](https://i.imgur.com/tN9bUAh.png)| Chaos Fanatic 
+![https://i.imgur.com/mLeZynK.png](https://i.imgur.com/mLeZynK.png)| Commander Zilyana
+![https://i.imgur.com/hZUNtgK.png](https://i.imgur.com/hZUNtgK.png)| Corporeal Beast
+![https://i.imgur.com/eqvQC4C.png](https://i.imgur.com/eqvQC4C.png)| Crazy Archaeologist
+![https://i.imgur.com/JfpXrXW.png](https://i.imgur.com/JfpXrXW.png)| Dagannoth Prime
+![https://i.imgur.com/pO822rj.png](https://i.imgur.com/pO822rj.png)| Dagannoth Rex
+![https://i.imgur.com/FKVIKMX.png](https://i.imgur.com/FKVIKMX.png)| Dagannoth Supreme
+![https://i.imgur.com/sLdtsrg.png](https://i.imgur.com/sLdtsrg.png)| General Graardor
+![https://i.imgur.com/igxsuRU.png](https://i.imgur.com/igxsuRU.png)| Giant Mole
+![https://i.imgur.com/gVIOuaQ.png](https://i.imgur.com/gVIOuaQ.png)| K'ril Tsutsaroth
+![https://i.imgur.com/rvqU0Z3.gif](https://i.imgur.com/rvqU0Z3.gif)| Kalphite Queen
+![https://i.imgur.com/pQFbspB.png](https://i.imgur.com/pQFbspB.png)| King Black Dragon
+![https://i.imgur.com/OfsrIfN.png](https://i.imgur.com/OfsrIfN.png)| Kree'arra 
+![https://i.imgur.com/Hv6IcBx.gif](https://i.imgur.com/Hv6IcBx.gif)| Lizardman Shaman
+![https://i.imgur.com/iwGwt1F.png](https://i.imgur.com/iwGwt1F.png)| Scorpia
+![https://i.imgur.com/HHEZj9X.png](https://i.imgur.com/HHEZj9X.png)| Venenatis
+![https://i.imgur.com/iSWr25X.gif](https://i.imgur.com/iSWr25X.gif)| Vet'ion
+![https://i.imgur.com/w9PrhyH.png](https://i.imgur.com/w9PrhyH.png)| Vorkath
+![https://i.imgur.com/p6d3Wna.gif](https://i.imgur.com/p6d3Wna.gif)| Zulrah
+
+ Some bosses have requirements, like Quest points or gear, refer to [Boss and monster requirements](https://www.oldschool.gg/oldschoolbot/minions?Boss%20and%20monster%20requirements) for more information or use the `+monster` command in the bot. 
+ 
+ Don't know what you want to kill? Use the `+m k random` command to send your minion off to kill a random monster, limited to monsters you have the requirements to kill.
+  
+ You can view your minions' killcounts using `+m kc`.
+ 
+#### Group Bossing
+
+Some bosses are able to be killed in groups, these bosses currently are: All four GWD bosses, and Corp - more bosses are planned to be added. To do group bossing, you create a party, there are two kinds of parties: invite-only and mass. Invite only parties are for you to invite select people on your trip and mass parties can be joined by anyone. Parties have a leader, who is the person who created the party (ran the command).
+
+Note that, similar to ingame, even if you have a very big group of people in a party killing a boss, you're still limited by that bosses respawn time, although the kills can get very very fast if you have lots of people.
+
+Loot is rolled out completely randomly, for example if your party is doing 5 kills, it will give each kill loot to a random party member, the same person can be given loot multiple times, or none at all if unlucky.
+
+Currently, boosts do not apply to group boss trips, however this will be added in the future.
+
+You **cannot** join parties if: you're an ironman or if your minion is busy.
+
+##### Invite-only group bossing
+Example of invite-only group bossing party: `+groupkill party corp @Magnaboy @Alexsuperfly @Crow653` - this would make an invite-only party, that only those 3 people can join. Note that, the leader (the person who is running the command) doesn't have to add themselves to the list, they're always included automatically.
+
+After, each user will have to confirm they want to join by clicking on the "join" reaction. The trip will start when all users have confirmed, or if the party leader has clicked the "start" reaction to start early.
+
+
+##### Mass bossing
+Example of a mass bossing party: `+groupkill mass corp` - this would make a mass party, that ANYONE can join. The trip will start after 2 minutes automatically, or when the party leader clicks the "start" reaction.
+
+#### Fight Caves
+You can now challenge the Fight Caves and TzTok-Jad to recieve a fire cape, tokkul, and the TzRek-Jad pet using the `+fightcaves` command. Requirements: total +160 range bonus equipped to your range gear setup, 43 prayer, 10x Prayer Potion (4), 4x Super Restore (4), and 6x Saradomin Brew (4) per attempt, some of which may be returned to you should you fail before the final wave. You can make the 4 dose potions from 3, 2, and 1 dose drops using the `+decant` command. Better range gear will reduce the time each attempt takes, as will total Jad kc. Having a Saradomin Godsword equipped in your melee gear setup will reduce your chances of dying before Jad by 4%, and the number of total attempts you have made will determine your chances of killing Jad when he is reached. 
+
+If you have extra fire capes, you can gamble them for an additional roll at the TzRek-Jad pet using the `+capegamble` command. 
+
+#### Equipping Gear
+When sending your minion out on boss or skilling trips, you can equip it with gear to improve its speed and effeciency. For convenience, there is a gear setup for melee, range, mage, skilling, and misc. Depending on the activity your minion is doing will depend on which gear is used. For example, taking on the fightcaves uses your minion's **range** gear setup as well as the Saradomin Godsword if it is equipped in your **melee** gear setup. Whereas going mining will use your minion's **skilling** gear setup. You can equip any equippable items you want into the different setups.
+When an item is equipped, it is removed from your bank to the gear setup. When unequipped, the item moves back to your bank.
+
+To **equip** an item into a setup, use: `+equip [setup] [item]`. For example, to equip a Bandos chestplate to the melee setup, you would use the command: `+equip melee bandos chestplate`. To **unequip** an item from a setup, use: `+unequip [setup] [item]`. For example: `+unequip melee bandos chestplate`.
+
+To view your currently equipped gear, use: `+gear [setup]`. For example, to see your skilling setup, use: `+gear skilling`.
+
+Just like dropping a pet ingame and having it follow you, your minion can also equip a pet. This will keep your minion company while it's out working hard to earn you items and gp. To equip a pet, use: `+equippet [pet name]` and it will show on all your gear setups. To unequip it, use: `+unequippet`.
+
+
+
 
 ## Questing
 Questing in the bot is simple and easy, and roughly 20% faster than ingame. Instead of doing specific quests, you just "quest" and gain QP for "questing". You can keep questing until you reach the max QP. The amount of QP you recieve per trip scales down as you progress, with averages of 4 QP/hr from 0 to 100 QP, 3 QP/hr from 100-200 QP, and 2 QP/hr from 200-275 QP. 
