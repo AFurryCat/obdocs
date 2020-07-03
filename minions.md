@@ -97,7 +97,10 @@ The requirements to activate your minion vary depending upon the age of your Dis
 You can use the `+daily` command every 12 hours to earn the required gp, this will ask you trivia questions and provide gp and special Diango items as a reward.
 Becoming a [patron](https://www.patreon.com/oldschoolbot) allows you to bypass the above restrictions.
 
-You can activate your minion by using the `+minion buy` command, or `+m buy` for short. 
+You can activate your minion by using the `+minion buy` command, or `+m buy` for short.
+
+## Trips
+TODO: Explain the concept of a trip and how patron can extend the trip time
 
 ## Banking
 Your minion has a bank just like in the real game, loot from killing monsters and bosses will automatically be added to your bank along with raw crafting materials you gather and any items you make from them.
@@ -170,25 +173,6 @@ You can filter the output of the `+bank` command to show items relating to certa
 	</tbody>
 </table>
 
-
-
-
-
-.////////////////
-
-.
-
-. BELOW IS UNEDITED
-
-.
-
-./////////////////
-
-
-
-
-
-
 # Skilling  
 
 Currently available skills are:  
@@ -205,18 +189,21 @@ Currently available skills are:
   * [Fletching](https://www.oldschool.gg/oldschoolbot/minions?Fletching)
 
 ## Agility
-You can train Agility using `+laps [quantity] <course>`, for example `+laps 10 canifis`.  
+You can train Agility using the `+laps` command.
 
-Agility rewards you with marks of grace which you can use to buy Graceful equipment using the command `+create graceful` or `+create graceful (piece)`.
+`+laps <course command>` will do as many laps as possible for the given course in the trip.
+
+`+laps 10 <course command>` will do 10 laps of the given course, and the trip will only take as long as needed to do those 10 laps.  
+
+
 
 ### Courses
-
-**TODO: Add course commands to table**
 <table>
 	<tbody>
 		<tr>
 			<th align="center">Agility Level</th>
 			<th align="center">Course</th>
+			<th align="center">Command</th>
 			<th align="center">Lap Time</th>
 			<th align="center">Completion experience</th>
 			<th align="center">Mark of Grace chance</th>
@@ -224,6 +211,10 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">1</td>
 			<td align="center">Gnome Stronghold</td>
+			<td align="center">
+				<code>gnome stronghold</code></br>
+				<code>gnome</code>
+			</td>
 			<td align="center">34 seconds</td>
 			<td align="center">88</td>
 			<td align="center">0%</td>
@@ -231,6 +222,9 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">10</td>
 			<td align="center">Draynor Village</td>
+			<td align="center">
+				<code>draynor</code>
+			</td>
 			<td align="center">43 seconds</td>
 			<td align="center">120</td>
 			<td align="center">14.4%</td>
@@ -238,6 +232,9 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">20</td>
 			<td align="center">Al Kharid</td>
+			<td align="center">
+				<code>al kharid</code>
+			</td>
 			<td align="center">65 seconds</td>
 			<td align="center">180</td>
 			<td align="center">14.4%</td>
@@ -245,6 +242,9 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">30</td>
 			<td align="center">Varrock</td>
+			<td align="center">
+				<code>varrock</code>
+			</td>
 			<td align="center">66 seconds</td>
 			<td align="center">238</td>
 			<td align="center">22%</td>
@@ -252,6 +252,9 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">40</td>
 			<td align="center">Canafis</td>
+			<td align="center">
+				<code>canafis</code>
+			</td>
 			<td align="center">75 seconds</td>
 			<td align="center">240</td>
 			<td align="center">39.5%</td>
@@ -259,6 +262,10 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">50</td>
 			<td align="center">Falador</td>
+			<td align="center">
+				<code>falador</code></br>
+				<code>fally</code>
+			</td>
 			<td align="center">58 seconds</td>
 			<td align="center">440</td>
 			<td align="center">21%</td>
@@ -266,6 +273,10 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">60</td>
 			<td align="center">Seers Village</td>
+			<td align="center">
+				<code>seers village</code></br>
+				<code>seers</code>
+			</td>
 			<td align="center">44 seconds</td>
 			<td align="center">570</td>
 			<td align="center">14.8%</td>
@@ -273,6 +284,10 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">70</td>
 			<td align="center">Pollnivneach</td>
+			<td align="center">
+				<code>pollnivneach</code></br>
+				<code>pol</code>
+			</td>
 			<td align="center">61 seconds</td>
 			<td align="center">890</td>
 			<td align="center">15.3%</td>
@@ -280,6 +295,10 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">80</td>
 			<td align="center">Rellekka</td>
+			<td align="center">
+				<code>rellekka</code></br>
+				<code>rel</code>
+			</td>
 			<td align="center">51 seconds</td>
 			<td align="center">780</td>
 			<td align="center">19.8%</td>
@@ -287,6 +306,10 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 		<tr>
 			<td align="center">90</td>
 			<td align="center">Ardougne</td>
+			<td align="center">
+				<code>ardougne</code></br>
+				<code>ardy</code>
+			</td>
 			<td align="center">45.6 seconds</td>
 			<td align="center">793</td>
 			<td align="center">30.4%</td>
@@ -294,8 +317,14 @@ Agility rewards you with marks of grace which you can use to buy Graceful equipm
 	</tbody>
 </table>
 
+## Marks of Grace
+Completing a lap of an agility course gives the possibility of being rewarded with a Mark of Grace. Marks of Grace can be used to 
+Agility rewards you with marks of grace which you can use to buy Graceful equipment set.using the command `+create graceful` or `+create graceful (piece)`.
+
+TODO: Look at what benefits agility provides in the code
+
 ### Notes
-Failure Percentage Calculation: `100 - ((100 * Agility Level) / (Course Requirement + 5))` **TODO: Confirm this in code**
+Failure Percentage Calculation: `(100 * Minion Agility Level) / (Course Agility Requirement + 5)`
 
 Xp Received Calculation: `(Total Laps - (Laps Failed / 2)) * Course Completion Exp`
 
