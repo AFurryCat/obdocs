@@ -321,93 +321,93 @@ You can boost Cooking xp rates when attempting to cook fish while having the coo
 			<td align="center">Beef</td>
 			<td align="center">30</td>
 			<td align="center">31</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">Shrimps</td>
 			<td align="center">30</td>
 			<td align="center">34</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">Chicken</td>
 			<td align="center">30</td>
 			<td align="center">34</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">Anchovies</td>
 			<td align="center">30</td>
 			<td align="center">34</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">Sardine</td>
 			<td align="center">40</td>
 			<td align="center">37</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">5</td>
 			<td align="center">Herring</td>
 			<td align="center">50</td>
 			<td align="center">41</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">10</td>
 			<td align="center">60</td>
 			<td align="center">Mackerel</td>
 			<td align="center">45</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">15</td>
 			<td align="center">Trout</td>
 			<td align="center">70</td>
 			<td align="center">49</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">18</td>
 			<td align="center">Cod</td>
 			<td align="center">75</td>
 			<td align="center">52</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">20</td>
 			<td align="center">Pike</td>
 			<td align="center">80</td>
 			<td align="center">64</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">25</td>
 			<td align="center">Salmon</td>
 			<td align="center">90</td>
 			<td align="center">58</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center" rowspan="2">30</td>
 			<td align="center">Tuna</td>
 			<td align="center">100</td>
 			<td align="center">63</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">Karambwan</td>
 			<td align="center">190</td>
 			<td align="center">99</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">35</td>
 			<td align="center">Jug of Wine</td>
 			<td align="center">200</td>
 			<td align="center">68</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">40</td>
@@ -421,7 +421,7 @@ You can boost Cooking xp rates when attempting to cook fish while having the coo
 			<td align="center">Bass</td>
 			<td align="center">130</td>
 			<td align="center">80</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">45</td>
@@ -456,14 +456,14 @@ You can boost Cooking xp rates when attempting to cook fish while having the coo
 			<td align="center">Dark crab</td>
 			<td align="center">215</td>
 			<td align="center">99</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 		<tr>
 			<td align="center">91</td>
 			<td align="center">Manta ray</td>
 			<td align="center">216.2</td>
 			<td align="center">99</td>
-			<td align="center">Never Burn</td>
+			<td align="center"></td>
 		</tr>
 	</tbody>
 </table>
