@@ -313,184 +313,160 @@ You can boost Cooking xp rates when attempting to cook fish while having the coo
 			<th align="center">Cooking Level</th>
 			<th align="center">Food</th>
 			<th align="center">Experience Given</th>
-			<th align="center">Stop Burning At</th>
+			<th align="center">Burn Level</th>
 			<th align="center">Cooking Gauntlets</th>
 		</tr>
 		<tr>
 			<td align="center" rowspan="5">1</td>
 			<td align="center">Beef</td>
 			<td align="center">30</td>
-			<td align="center">31+</td>
+			<td align="center">31</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center">Shrimp</td>
+			<td align="center">Shrimps</td>
 			<td align="center">30</td>
-			<td align="center">34+</td>
+			<td align="center">34</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">Chicken</td>
 			<td align="center">30</td>
-			<td align="center">34+</td>
+			<td align="center">34</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">Anchovies</td>
 			<td align="center">30</td>
-			<td align="center">34+</td>
+			<td align="center">34</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">Sardine</td>
 			<td align="center">40</td>
-			<td align="center">37+</td>
+			<td align="center">37</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">5</td>
 			<td align="center">Herring</td>
 			<td align="center">50</td>
-			<td align="center">41+</td>
+			<td align="center">41</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">10</td>
 			<td align="center">60</td>
 			<td align="center">Mackerel</td>
-			<td align="center">45+</td>
+			<td align="center">45</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">15</td>
 			<td align="center">Trout</td>
 			<td align="center">70</td>
-			<td align="center">49+</td>
+			<td align="center">49</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">18</td>
 			<td align="center">Cod</td>
 			<td align="center">75</td>
-			<td align="center">64+</td>
+			<td align="center">52</td>
 			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
 			<td align="center">20</td>
 			<td align="center">Pike</td>
 			<td align="center">80</td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">64</td>
+			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">25</td>
+			<td align="center">Salmon</td>
+			<td align="center">90</td>
+			<td align="center">58</td>
+			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center" rowspan="2">30</td>
+			<td align="center">Tuna</td>
+			<td align="center">100</td>
+			<td align="center">63</td>
+			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">Karambwan</td>
+			<td align="center">190</td>
+			<td align="center">99</td>
+			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">35</td>
+			<td align="center">Jug of Wine</td>
+			<td align="center">200</td>
+			<td align="center">68</td>
+			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">40</td>
+			<td align="center">Lobster</td>
+			<td align="center">120</td>
+			<td align="center">74</td>
+			<td align="center">64</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">43</td>
+			<td align="center">Bass</td>
+			<td align="center">130</td>
+			<td align="center">80</td>
+			<td align="center">Never Burn</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">45</td>
+			<td align="center">Swordfish</td>
+			<td align="center">140</td>
+			<td align="center">86</td>
+			<td align="center">81</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">62</td>
+			<td align="center">Monkfish</td>
+			<td align="center">150</td>
+			<td align="center">90</td>
+			<td align="center">88</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">80</td>
+			<td align="center">Shark</td>
+			<td align="center">210</td>
+			<td align="center">99</td>
+			<td align="center">94</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">84</td>
+			<td align="center">Anglerfish</td>
+			<td align="center">230</td>
+			<td align="center">99</td>
+			<td align="center">98</td>
 		</tr>
 		<tr>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
-			<td align="center"></td>
+			<td align="center">90</td>
+			<td align="center">Dark crab</td>
+			<td align="center">215</td>
+			<td align="center">99</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">91</td>
+			<td align="center">Manta ray</td>
+			<td align="center">216.2</td>
+			<td align="center">99</td>
+			<td align="center">Never Burn</td>
 		</tr>
 	</tbody>
 </table>
-
-### Food
-| **Food** | **Required level** |
-| - | :-: |
-| Beef | 1 |
-| Shrimps | 1 |
-| Chicken | 1 |
-| Anchovies | 1 |
-| Sardine | 1 |
-| Herring | 5 |
-| Mackerel | 10 |
-| Trout | 15 |
-| Cod | 18 |
-| Pike | 20 |
-| Salmon | 25 |
-| Tuna | 30 |
-| Karambwan | 30 |
-| Jug of wine | 35 |
-| Lobster | 40 |
-| Bass | 43 |
-| Swordfish | 45 |
-| Monkfish | 62 |
-| Shark | 80 |
-| Anglerfish | 84 |
-| Dark Crab | 90 |
-| Manta Ray | 91 |
-
-Click [here](https://i.imgur.com/iJuoDbb.png) for **Cooking** XP rates.
-
-
 
 
 
