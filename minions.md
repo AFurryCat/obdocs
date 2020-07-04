@@ -16,7 +16,7 @@ If you notice any mistakes or missing information in this page, you can [edit th
 
 
 # TODO: GENERATE CONTENTS PAGE
-<i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generator/a></i>
+<i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generator</a></i>
 
 
 # Getting started
@@ -136,16 +136,16 @@ You can filter the output of the `+bank` command to show items relating to certa
 
 Currently available skills are:  
   * [Agility](https://www.oldschool.gg/oldschoolbot/minions?Agility)  
-  * [Fishing](https://www.oldschool.gg/oldschoolbot/minions?Fishing)  
-  * [Mining](https://www.oldschool.gg/oldschoolbot/minions?Mining)  
-  * [Smithing](https://www.oldschool.gg/oldschoolbot/minions?Smithing)  
-  * [Woodcutting](https://www.oldschool.gg/oldschoolbot/minions?Woodcutting)  
-  * [Firemaking](https://www.oldschool.gg/oldschoolbot/minions?Firemaking)  
-  * [Runecrafting](https://www.oldschool.gg/oldschoolbot/minions?Runecrafting)  
   * [Cooking](https://www.oldschool.gg/oldschoolbot/minions?Cooking)  
   * [Crafting](https://www.oldschool.gg/oldschoolbot/minions?Crafting)  
-  * [Prayer](https://www.oldschool.gg/oldschoolbot/minions?Prayer)
+  * [Firemaking](https://www.oldschool.gg/oldschoolbot/minions?Firemaking)  
+  * [Fishing](https://www.oldschool.gg/oldschoolbot/minions?Fishing)  
   * [Fletching](https://www.oldschool.gg/oldschoolbot/minions?Fletching)
+  * [Mining](https://www.oldschool.gg/oldschoolbot/minions?Mining)  
+  * [Prayer](https://www.oldschool.gg/oldschoolbot/minions?Prayer)
+  * [Runecrafting](https://www.oldschool.gg/oldschoolbot/minions?Runecrafting)  
+  * [Smithing](https://www.oldschool.gg/oldschoolbot/minions?Smithing)  
+  * [Woodcutting](https://www.oldschool.gg/oldschoolbot/minions?Woodcutting)  
 
 ## Agility
 You can train Agility using the `+laps` command.
@@ -300,6 +300,221 @@ Training your minions agility provides the following benefits
 		</tr>
 	</tbody>
 </table>
+
+## Cooking
+You can train Cooking using `+cook [quantity] <food>`, for example `+cook 50 bass`.  
+
+You can boost Cooking xp rates when attempting to cook fish while having the cooking guantlets equipped which decrease your faliure rate when cooking fish.
+
+### Courses
+<table>
+	<tbody>
+		<tr>
+			<th align="center">Cooking Level</th>
+			<th align="center">Food</th>
+			<th align="center">Experience Given</th>
+			<th align="center">Stop Burning At</th>
+			<th align="center">Cooking Gauntlets</th>
+		</tr>
+		<tr>
+			<td align="center" rowspan="5">1</td>
+			<td align="center">Beef</td>
+			<td align="center">30</td>
+			<td align="center">31+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">Shrimp</td>
+			<td align="center">30</td>
+			<td align="center">34+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">Chicken</td>
+			<td align="center">30</td>
+			<td align="center">34+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">Anchovies</td>
+			<td align="center">30</td>
+			<td align="center">34+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">Sardine</td>
+			<td align="center">40</td>
+			<td align="center">37+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">5</td>
+			<td align="center">Herring</td>
+			<td align="center">50</td>
+			<td align="center">41+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">10</td>
+			<td align="center">60</td>
+			<td align="center">Mackerel</td>
+			<td align="center">45+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">15</td>
+			<td align="center">Trout</td>
+			<td align="center">70</td>
+			<td align="center">49+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">18</td>
+			<td align="center">Cod</td>
+			<td align="center">75</td>
+			<td align="center">64+</td>
+			<td align="center">Never Burn</td>
+		</tr>
+		<tr>
+			<td align="center">20</td>
+			<td align="center">Pike</td>
+			<td align="center">80</td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+		<tr>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+			<td align="center"></td>
+		</tr>
+	</tbody>
+</table>
+
+### Food
+| **Food** | **Required level** |
+| - | :-: |
+| Beef | 1 |
+| Shrimps | 1 |
+| Chicken | 1 |
+| Anchovies | 1 |
+| Sardine | 1 |
+| Herring | 5 |
+| Mackerel | 10 |
+| Trout | 15 |
+| Cod | 18 |
+| Pike | 20 |
+| Salmon | 25 |
+| Tuna | 30 |
+| Karambwan | 30 |
+| Jug of wine | 35 |
+| Lobster | 40 |
+| Bass | 43 |
+| Swordfish | 45 |
+| Monkfish | 62 |
+| Shark | 80 |
+| Anglerfish | 84 |
+| Dark Crab | 90 |
+| Manta Ray | 91 |
+
+Click [here](https://i.imgur.com/iJuoDbb.png) for **Cooking** XP rates.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Fishing
 You can train Fishing using `+fish [quantity] <fish>`, for example `+fish 100 lobster`.  
