@@ -623,23 +623,23 @@ None
 #### Alias
 `commander zilyana`, `saradomin`, `zilyana`, `sara`, `zily`
 #### Notable Loot
-Armadyl crossbow</br>
-Godsword Shard 1, 2 and 3</br>
-Saradomin Sword</br>
-Saradomin Hilt
+`Armadyl crossbow`</br>
+`Godsword Shard 1, 2 and 3`</br>
+`Saradomin Sword`</br>
+`Saradomin Hilt`</br>
 <a href="https://oldschool.runescape.wiki/w/Commander_Zilyana#Drops">Full Loot Table</a>
 #### Kill Requirements
-##### Skills
-Agility: 70+
-Prayer: 43+
-##### Quest Points
+<b><i>Skills</i></b></br>
+`Agility:` 70+</br>
+`Prayer:` 43+
+</br><b><i>Quest Points</i></b></br>
 75+
-##### Weapons / Armour
-Chest: Armadyl Chestplate or Karil's Leathertop</br>
-Legs: Armadyl Chainskirt or Karil's Leatherskirt
+</br><b><i>Weapons / Armour</i></b></br>
+`Chest`: Armadyl Chestplate or Karil's Leathertop</br>
+`Legs`: Armadyl Chainskirt or Karil's Leatherskirt
 #### Boost Items
-+5% Armadyl Crossbow</br>
-+5% Ranger Boots
+`+5%` Armadyl Crossbow</br>
+`+5%` Ranger Boots
 
 <hr />
 
