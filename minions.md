@@ -627,7 +627,7 @@ None
 `Godsword Shard 1, 2 and 3`</br>
 `Saradomin Sword`</br>
 `Saradomin Hilt`</br>
-<a href="https://oldschool.runescape.wiki/w/Commander_Zilyana#Drops">Full Loot Table</a>
+<a href="https://oldschool.runescape.wiki/w/Commander_Zilyana#Drops">`Full Loot Table`</a>
 #### Kill Requirements
 <b><i>Skills</i></b></br>
 `Agility:` 70+</br>
